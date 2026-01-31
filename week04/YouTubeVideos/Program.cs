@@ -6,7 +6,7 @@ class Program
     {
         
         Video video1 = new Video("My First Video", "Daniel", 120);
-        Video video2 = new Video("Learning C#", "Maria", 300); 
+        Video video2 = new Video("Learning C#", "Maria", 300);
         Video video3 = new Video("Travel Vlog", "John", 240);
 
         video1.Comments.Add(new Comment("Alex", "Great video!"));
