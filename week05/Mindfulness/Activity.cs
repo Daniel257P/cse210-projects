@@ -8,7 +8,6 @@ public class Activity
     {
          _name = name;
          _description = description; 
-
     }
 
     public void DisplayStartMessage() 
