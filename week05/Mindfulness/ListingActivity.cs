@@ -17,7 +17,6 @@ public class ListingActivity: Activity
         int index = rand.Next(_prompts.Count);
         return _prompts[index];
     }
-
     public void Run()
     {
         DisplayStartMessage();
@@ -41,14 +40,5 @@ public class ListingActivity: Activity
         Console.WriteLine($"You listed {responses.Count} items.");
         DisplayEndMessage();
     }
-
-
-
-
-
-
-
-
-
 
 }

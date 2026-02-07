@@ -38,7 +38,6 @@ private string GetRandomQuestion()
     return _questions[index];
 }
 
-
 public void Run()
 {
     DisplayStartMessage();
@@ -65,6 +64,4 @@ public void Run()
 
     DisplayEndMessage();
 }
-
-
 }
